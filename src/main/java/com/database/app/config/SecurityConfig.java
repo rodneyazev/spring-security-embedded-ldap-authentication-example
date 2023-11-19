@@ -22,7 +22,7 @@ public class SecurityConfig {
 			.disable())	
 		.authorizeHttpRequests(
 			auth -> auth
-				.requestMatchers("/", "/v3/**", "/swagger-ui/**","/swagger/**").permitAll()
+				.requestMatchers("/v3/**", "/swagger-ui/**","/swagger/**").permitAll()
 				.anyRequest().fullyAuthenticated())
 		.formLogin(Customizer.withDefaults());
 		//or .httpBasic(Customizer.withDefaults()) - Popup authentication box
