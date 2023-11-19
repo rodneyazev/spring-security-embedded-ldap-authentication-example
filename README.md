@@ -6,6 +6,12 @@
 
 Spring Security Embedded LDAP Server Authentcation Example
 
+## Login example (users.ldif)
+
+Username: ben
+
+Password: benspassword
+
 ## Test
 
 ```bash
