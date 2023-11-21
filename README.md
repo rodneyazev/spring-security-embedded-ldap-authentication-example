@@ -6,11 +6,17 @@
 
 Spring Security Embedded LDAP Server Authentcation Example
 
-## Login example (users.ldif)
+## Swagger
 
-Username: ben
+Swagger: http://localhost:8080/swagger
 
-Password: benspassword
+## Login link (users.ldif)
+
+http://localhost:8080/user
+
+- Username: ben
+
+- Password: benspassword
 
 ## Test
 
